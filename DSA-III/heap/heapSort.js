@@ -11,8 +11,9 @@ function heapify(arr,index,n){
     if(largest!=index){
         [arr[index],arr[largest]] = [arr[largest],arr[index]];
          heapify(arr,largest,n)
-    }
+    } 
 
+    ////
 }
 function heapSort(arr){
     let n= arr.length;
